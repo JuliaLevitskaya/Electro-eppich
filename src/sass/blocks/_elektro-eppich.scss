@@ -1,0 +1,26 @@
+.elektro-eppich__field {
+    background-image: url('../img/backgroundimg.svg');
+    min-height: 900px;
+    display: flex;
+    justify-content: flex-end;
+    .elektro-eppich__info {
+        padding: 8vw;
+        margin-top: 9vw;
+        &-subtitle {
+            font-weight: 400;
+            font-size: 36px;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: flex-end;
+        }
+        &-title {
+            font-weight: 700;
+            font-size: 127px;
+            color: #FFFFFF;
+        }
+        .elektro-eppich__btn {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
