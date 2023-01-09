@@ -1,0 +1,38 @@
+.about-us {
+    min-height: 490px;
+    padding: 6vw;
+    &__title {
+        font-weight: 400;
+        font-size: 66px;
+        color: #000000;
+        font-family: 'Sen';
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        .about-us__descr {
+            font-weight: 400;
+            font-size: 14px;
+            color: #000000;
+            font-family: 'Sen';
+            line-height: 181.54%;
+            letter-spacing: 0.07em;
+            width: 427px;
+            margin-right: 45px;
+            margin-top: 10px;
+            span {
+                font-family: 'Sen';
+                font-weight: 700;
+                font-size: 19px;
+                color: #0155B5;
+                line-height: 181.54%;
+                letter-spacing: 0.07em;
+            }
+        }
+        img {
+            width: 362px;
+            height: 254px;
+        }
+    }
+}
