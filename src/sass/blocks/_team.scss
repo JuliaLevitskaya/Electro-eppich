@@ -1,0 +1,70 @@
+.team {
+    min-height: 650px;
+    padding: 10vw;
+    position: relative;
+    &__title {
+        font-weight: 400;
+        font-size: 66px;
+        text-align: center;
+        color: #000000;
+    }
+    .team__item {
+        overflow: hidden;
+        width: 1024px;
+        margin: 0 0 0 39px;
+    }
+    .team__staff {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 90px;
+        width: 1024px;
+        &-field {
+            img {
+                width: 226px;
+                height: 245px;
+            }
+        }
+        .team__staff-title {
+            font-family: 'Sen';
+            font-weight: 700;
+            font-size: 24px;
+            text-align: center;
+            color: #0155B5;
+            margin-top: 10px;
+        }
+        .team__staff-field {
+            display: block;
+            margin-right: 30px;
+        }
+        .team__staff-contacts {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: 20px;
+            a {
+                font-family: 'Sen';
+                font-weight: 400;
+                font-size: 20px;
+                text-align: center;
+                letter-spacing: 0.07em;
+                color: #000000;
+                text-decoration: none;
+                &:hover {
+                    color: #2121e2;
+                }
+            }
+        }
+    }
+}
+
+.team__arrow-left {
+    left: 55px;
+    top: 490px;
+    position: absolute;
+}
+
+.team__arrow-right {
+    right: 55px;
+    top: 490px;
+    position: absolute;
+}
