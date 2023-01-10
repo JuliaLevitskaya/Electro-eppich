@@ -1,6 +1,6 @@
 .services {
     background: #0155B5;
-    min-height: 1000px;
+    min-height: 820px;
     padding: 4vw;
     position: relative;
     .carusel {
@@ -76,24 +76,28 @@
             margin-top: 11px;
         }
     }
-    .btn {
-        cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn__right {
+    img {
+        transform: rotate(178deg);
     }
-    .btn__right {
-        img {
-            transform: rotate(178deg);
-        }
-    }
-    .arrow__right {
-        position: absolute;
-        right: 450px;
-        top: 560px;
-    }
-    .arrow__left {
-        position: absolute;
-        left: 450px;
-        top: 560px;
-    }
+}
+
+.arrow__right {
+    position: absolute;
+    right: 450px;
+    top: 560px;
+}
+
+.arrow__left {
+    position: absolute;
+    left: 450px;
+    top: 560px;
 }
 
 .transformAnimation {

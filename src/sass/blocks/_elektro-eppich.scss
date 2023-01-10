@@ -21,6 +21,9 @@
         .elektro-eppich__btn {
             display: flex;
             justify-content: flex-end;
+            a {
+                text-decoration: none;
+            }
         }
     }
 }

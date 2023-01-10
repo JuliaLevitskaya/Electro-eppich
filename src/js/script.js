@@ -30,3 +30,28 @@ window.addEventListener('load', () => {
         slider.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
     });
 });
+
+window.addEventListener('load', () => {
+    const arrowLeft = document.querySelector('.team__arrow-left');
+    const arrowRight = document.querySelector('.team__arrow-right');
+    const sliderTwo = document.querySelector('.team__staff');
+    const image = document.querySelectorAll('.team__staff-field img');
+    let counter = 0;
+    const stepSize = image[0].clientWidth;
+
+    sliderTwo.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
+
+    arrowRight.addEventListener('click', () => {
+        counter >= image.length - 1 ? (counter = -1) : null;
+        sliderTwo.classList.add('transformAnimation');
+        counter++;
+        sliderTwo.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
+    });
+
+    arrowLeft.addEventListener('click', () => {
+        if (counter <= 0) counter = image.length;
+        sliderTwo.classList.add('transformAnimation');
+        counter--;
+        sliderTwo.style.transform = 'translateX(' + `${-stepSize * counter}px)`;
+    });
+});
