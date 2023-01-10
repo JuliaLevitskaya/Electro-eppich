@@ -1,0 +1,101 @@
+.services {
+    background: #0155B5;
+    min-height: 1000px;
+    padding: 4vw;
+    position: relative;
+    .carusel {
+        display: flex;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 66px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 50px;
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 27px;
+        font-family: 'Sen';
+        line-height: 165.04%;
+        letter-spacing: 0.07em;
+    }
+    .services__cards {
+        overflow: hidden;
+        width: 303px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .services__card {
+        background: #FFFFFF;
+        box-shadow: 0px 3px 43px 15px rgba(0, 0, 0, 0.28);
+        display: block;
+        width: 303px;
+        img {
+            width: 303px;
+            height: 270px;
+        }
+        &-info {
+            padding: 50px 46px 40px 46px;
+        }
+        button {
+            background: #FFFFFF;
+            box-shadow: 0px 0px 22px 8px rgba(1, 85, 181, 0.07);
+            font-family: 'Sen';
+            font-weight: 400;
+            font-size: 20px;
+            text-align: center;
+            color: #0155B5;
+            border: none;
+            width: 100%;
+            padding: 13px 0;
+            cursor: pointer;
+            &:hover {
+                transition: all 0.5s;
+                box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+            }
+        }
+        .services__card-title {
+            font-weight: 700;
+            font-size: 17px;
+            text-align: center;
+            letter-spacing: 0.07em;
+            color: #0155B5;
+            font-family: 'Sen';
+        }
+        .services__card-subtitle {
+            font-family: 'Sen';
+            font-weight: 400;
+            font-size: 16px;
+            text-align: center;
+            letter-spacing: 0.07em;
+            color: #000000;
+            margin-top: 11px;
+        }
+    }
+    .btn {
+        cursor: pointer;
+    }
+    .btn__right {
+        img {
+            transform: rotate(178deg);
+        }
+    }
+    .arrow__right {
+        position: absolute;
+        right: 450px;
+        top: 560px;
+    }
+    .arrow__left {
+        position: absolute;
+        left: 450px;
+        top: 560px;
+    }
+}
+
+.transformAnimation {
+    transition: all 0.5s ease-in-out;
+}
