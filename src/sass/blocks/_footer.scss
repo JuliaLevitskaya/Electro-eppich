@@ -1,0 +1,57 @@
+footer {
+    min-height: 230px;
+    padding: 4vw;
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.29);
+        padding-bottom: 40px;
+    }
+    .footer__info {
+        font-family: 'Sen';
+        font-weight: 400;
+        font-size: 20px;
+        color: #000000;
+    }
+    .footer__contacts {
+        margin-top: 40px;
+        a {
+            font-family: 'Sen';
+            font-weight: 400;
+            font-size: 20px;
+            color: #000000;
+            text-decoration: none;
+            &:hover {
+                transition: all 0.5s;
+                color: rgb(22, 60, 164);
+            }
+        }
+    }
+    .footer__logo {
+        width: 401px;
+        height: 107px;
+        margin-left: 60px;
+        cursor: pointer;
+    }
+    .footer__field {
+        display: flex;
+        margin-top: 40px;
+        &-title {
+            font-family: 'Sen';
+            font-weight: 700;
+            font-size: 20px;
+            color: #0155B5;
+            cursor: pointer;
+        }
+        .footer__field-title--ml {
+            margin-left: 50px;
+        }
+    }
+    .footer__data {
+        font-family: 'Sen';
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.29);
+        margin-top: 20px;
+    }
+}
