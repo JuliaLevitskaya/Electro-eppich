@@ -1,10 +1,26 @@
 const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.menu');
+const aboutUs = document.querySelector('.about-us');
+const menuNavAbout = document.querySelector('.menu__nav-about');
+const nav = document.querySelector('.menu');
+const nameForm = document.querySelector('.map__contact--name');
+const button = document.querySelector('.map__button');
 
 hamburger.addEventListener('click', function() {
     hamburger.classList.toggle('active');
     menu.classList.toggle('active');
 })
+
+button.addEventListener('click', function() {
+    let x = document.querySelector('.map__contact--name').value;
+    let y = document.querySelector('.map__contact--email').value;
+    let j = document.querySelector('.map__contact-info-tel').value;
+    if (x, y, j == "") {
+        alert("Необходимо ввести все данные");
+        return false;
+    }
+})
+
 
 window.addEventListener('load', () => {
     const buttonLeft = document.querySelector('.btn__left');
