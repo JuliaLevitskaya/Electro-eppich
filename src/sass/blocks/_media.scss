@@ -1,0 +1,217 @@
+@media (max-width: 1800px) {
+    .map__contact {
+        padding: 33px;
+        top: 9%;
+        right: 5%;
+    }
+    .map {
+        width: 100%;
+    }
+    .elektro-eppich__info-title {
+        font-size: 94px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .elektro-eppich__info-title {
+        text-align: end;
+        font-size: 120px;
+    }
+    .arrow__right {
+        right: 350px;
+        top: 560px;
+    }
+    .arrow__left {
+        left: 350px;
+        top: 560px;
+    }
+    .team__item {
+        width: 960px;
+    }
+    .team__staff {
+        width: 960px;
+    }
+    .map {
+        width: 100%;
+    }
+    .map__contact {
+        right: 90px;
+        top: 70px;
+        padding: 60px 90px;
+        .map__contact-info {
+            width: 279px;
+        }
+    }
+    .footer__info {
+        font-size: 20px;
+    }
+    .footer__contacts {
+        a {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .elektro-eppich__info-title {
+        text-align: end;
+        font-size: 120px;
+    }
+    .arrow__right {
+        right: 250px;
+        top: 560px;
+    }
+    .arrow__left {
+        left: 250px;
+        top: 560px;
+    }
+    .team__item {
+        width: 691px;
+        .team__arrow-right {
+            right: 20px;
+            top: 490px;
+        }
+    }
+    .team__staff {
+        width: 691px;
+    }
+    .map {
+        width: 100%;
+    }
+    .map__contact {
+        right: 90px;
+        top: 70px;
+        padding: 60px 90px;
+        .map__contact-info {
+            width: 279px;
+        }
+    }
+    .footer__info {
+        font-size: 20px;
+    }
+    .footer__contacts {
+        a {
+            font-size: 20px;
+        }
+    }
+    .footer__logo {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .elektro-eppich__info-title {
+        font-size: 117px;
+        text-align: end;
+    }
+    .elektro-eppich__btn {
+        margin-top: 70px;
+    }
+    .about-us {
+        position: relative;
+    }
+    .about-us__info {
+        margin-bottom: 250px;
+        width: 677px;
+        .about-us__img {
+            position: absolute;
+            bottom: 15px;
+            right: 20%;
+        }
+    }
+    .arrow__right {
+        right: 100px;
+        top: 560px;
+    }
+    .arrow__left {
+        left: 100px;
+        top: 560px;
+    }
+    .team__item {
+        width: 383px;
+        .team__arrow-right {
+            right: 11px;
+            top: 490px;
+        }
+    }
+    .team__staff {
+        width: 383px;
+    }
+    .footer {
+        &__logo {
+            display: none;
+        }
+    }
+    .map {
+        width: 100%;
+    }
+    .map__contact {
+        padding: 33px 55px;
+        right: 61px;
+        top: 70px;
+        .map__contact-info {
+            width: 279px;
+        }
+    }
+    .footer__info {
+        font-size: 20px;
+    }
+    .footer__contacts {
+        a {
+            font-size: 20px;
+        }
+    }
+    .about-us__info {
+        margin-bottom: 250px;
+        width: 547px;
+    }
+    .menu {
+        top: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu {
+        top: 80px;
+    }
+    .elektro-eppich__info-title {
+        font-size: 90px;
+        text-align: end;
+        font-size: 90px;
+    }
+    .about-us__info {
+        flex-direction: column;
+        width: 430px;
+        .about-us__descr {
+            margin-top: 40px;
+        }
+        .about-us__img {
+            right: 10%;
+            bottom: 10px;
+        }
+    }
+    .arrow__right {
+        right: 30px;
+    }
+    .arrow__left {
+        left: 30px;
+    }
+    .team__item {
+        width: 275px;
+    }
+    .footer__info {
+        font-size: 14px;
+    }
+    .footer__contacts {
+        a {
+            font-size: 14px;
+        }
+    }
+    .footer__field {
+        display: flex;
+        flex-direction: column;
+    }
+    .map__contact {
+        padding: 20px 23px;
+    }
+}
